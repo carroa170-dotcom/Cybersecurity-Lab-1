@@ -1,4 +1,4 @@
-# Cybersecurity-Lab-1
+# Cybersecurity-Lab-A
 # LAB 1: Virtual Lab Environment & Initial Network Reconnaissance
 ## Project goal: To establish a controlled, virtualised environment using Kali Linux and VirtualBox for penetration testing and vulnerability assessment. The objective was to deploy a service (a simple web server) and perform service and version discovery using Nmap.
 ### Tools Used:
