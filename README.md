@@ -10,10 +10,10 @@ Firefox: For validating service availability.
 
 ## Service Deployment & Initial Nmap Scan. 
 
-[Nmap scan result for Lab 1](https://github.com/user-attachments/assets/1c079a6d-a2e1-4b01-aaef-6c3e84a682e2)
+![Nmap scan result for Lab 1](https://github.com/user-attachments/assets/1c079a6d-a2e1-4b01-aaef-6c3e84a682e2)
 This image displays two active terminal windows. In the background (left), a temporary web server is running using Python (python3 -m http.server 8080). In the foreground (right), an Nmap scan (sudo nmap -sV -p 8080 localhost) has successfully identified the port as open and accurately determined the service version (Python http.server 3.11.x). This demonstrates a successful configuration of the target environment and the use of basic network-scanning techniques.
 
-[Validation of Service Availability scan](https://github.com/user-attachments/assets/386364d1-cc98-4a3f-af3f-8e13fd9b1af5)
+![Validation of Service Availability scan](https://github.com/user-attachments/assets/386364d1-cc98-4a3f-af3f-8e13fd9b1af5)
 Validation of Service Availability. This screenshot confirms that the deployed web server is reachable and functioning correctly. Firefox is browsing http://localhost:8080, displaying the local directory listing. This front-end interaction triggers HTTP GET requests, which are clearly visible in the terminal logs (showing '200' OK status codes). This step is essential for confirming that the discovered service is fully operational.
 
 ## Conclusion & Key Learnings: 
